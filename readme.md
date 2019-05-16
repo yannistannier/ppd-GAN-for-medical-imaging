@@ -14,7 +14,7 @@ Result :
 
 |                           |               |            |         |
 | :------------------------ | :------------ | :--------- | :------ |
-| Modèle                    | Original data | Patch 3    | Patch 5 |
+| Model                    | Original data | Patch 3    | Patch 5 |
 | *CNN\_224x224*            | 91.94%        | **92.82%** | 90.94%  |
 | *CNN\_128x128*            | 89.15%        | 90.45%     | 89.71%  |
 | *CNN\_224x224\_StainNorm* | 88.95%        | 89.95%     | 89.35%  |
@@ -24,7 +24,7 @@ Result :
 
 2. Comparaison gan's data training
 
-| **NB images utilisées en training** | **7k** | **12k** | **20k** | **30k**    |
+| **Number of images used in training** | **7k** | **12k** | **20k** | **30k**    |
 | :---------------------------------- | :----- | :------ | :------ | :--------- |
 | Real Data - baseline                | 92.82% | \-      | \-      | \-         |
 | ProgressiveGan data                 | 90.06% | 91.54%  | 90.91%  | 92.86%     |
@@ -34,7 +34,7 @@ Result :
 
 2. Comparaison real data + gan's data
 
-| **Données d’apprentissage complètes**     | **Accuracy** |
+| **Augmented Training Data**     | **Accuracy** |
 | :---------------------------------------- | :----------- |
 | CNN - Real Data                           | 92.82%       |
 | CNN - Real Data + Progressive Growing GAN | 95.45%       |
@@ -68,7 +68,7 @@ Total image : 10000
 
 Result :
 
-|                      | 2 classes |         |        | 7 classes |
+|                      | 2 class |         |        | 7 class |
 |----------------------|:---------:|---------|--------|-----------|
 |         Model        |    Acc    | ROC auc | PR auc |    Acc    |
 | CNN_224x224 weighted |    91.11% | 93.78%  | 82.06% | 88.36%    |
